@@ -1,4 +1,5 @@
-# Plotting *spatiotemporal* soccer data
+# RoboCupSimData (Plotting)
+## Plotting *spatiotemporal* soccer data
 
 *keywords: python, jupyter notebook, pandas, matplotlib, soccer, robocup, robocupsimdata, spatiotemporal*
 
