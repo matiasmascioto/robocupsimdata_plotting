@@ -4,8 +4,6 @@
 
 This project works with spatiotemporal soccer data. The dataset used is from RoboCupSimData project ([Paper](https://arxiv.org/pdf/1711.01703.pdf)) ([Files Overview](http://oliver.obst.eu/data/RoboCupSimData/overview.html)). 
 
-
-![Soccer Pitch](data/output/soccer_pitch.png?raw=true "Soccer Pitch")
 ![Initial positions](data/output/initial_positions.png?raw=true "Initial positions")
 ![Match video!](data/output/video.gif?raw=true "Match video!")
 
