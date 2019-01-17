@@ -1,0 +1,39 @@
+input:
+  filepath_or_buffer: "data/output/groundtruth_cleaned.csv"
+  sep: ";"
+
+output:
+  export_video: True
+  filepath: "data/output/video.mp4"
+
+
+initial_time: 0
+final_time: 1000
+
+interval_ms: 5  # Draws a new frame every X ms
+
+# Plot style
+
+team_L_style:
+  marker: "o"
+  markersize: 10
+  markeredgewidth: 2
+  markeredgecolor: "blue"
+  markerfacecolor: "none"
+  linewidth: 0
+
+team_R_style:
+  marker: "o"
+  markersize: 10
+  markeredgewidth: 2
+  markeredgecolor: "red"
+  markerfacecolor: "none"
+  linewidth: 0
+
+ball_style:
+  marker: "o"
+  markersize: 8
+  markeredgewidth: 2
+  markeredgecolor: "black"
+  markerfacecolor: "gray"
+  linewidth: 0
