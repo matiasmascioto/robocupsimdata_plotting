@@ -21,7 +21,7 @@ This project works with spatiotemporal soccer data. The dataset used is from Rob
 * */data/output/initial_positions.png*: Soccer pitch with initial ball and player positions
 * */data/output/trajectories.png*: Soccer pitch with ball and goalkeeper trajectory 
 *  */data/output/video.mp4*: Match video!
-*  */data/output/video.mp4*: Match video converted to .gif
+*  */data/output/video.gif*: Match video converted to .gif
 
 ## Sources
   * [RoboCupSimData Files Overview](http://oliver.obst.eu/data/RoboCupSimData/overview.html)
