@@ -7,27 +7,40 @@ output:
   filepath: "data/output/video.mp4"
 
 
-initial_time: 0
-final_time: 1000
+initial_time: 100
+final_time: 300
 
-interval_ms: 5  # Draws a new frame every X ms
+interval_ms: 50  # Draws a new frame every X ms
+
+# Video
+fps: 20
+bitrate: 1800
 
 # Plot style
+title:
+  fontsize: 12
+  fontweight: 2
+  verticalalignment: "baseline"
+  horizontalalignment: "center"
+  fontname: "fantasy"
+  color: "white"
+
+grass_color: "#3CAF54"
 
 team_L_style:
   marker: "o"
-  markersize: 10
+  markersize: 15
   markeredgewidth: 2
-  markeredgecolor: "blue"
-  markerfacecolor: "none"
+  markeredgecolor: "black"
+  markerfacecolor: "blue"
   linewidth: 0
 
 team_R_style:
   marker: "o"
-  markersize: 10
+  markersize: 15
   markeredgewidth: 2
-  markeredgecolor: "red"
-  markerfacecolor: "none"
+  markeredgecolor: "black"
+  markerfacecolor: "red"
   linewidth: 0
 
 ball_style:
@@ -35,5 +48,5 @@ ball_style:
   markersize: 8
   markeredgewidth: 2
   markeredgecolor: "black"
-  markerfacecolor: "gray"
+  markerfacecolor: "black"
   linewidth: 0
